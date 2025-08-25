@@ -1,0 +1,23 @@
+.gallery-thumb {
+    cursor: pointer;
+    transition: border 0.2s ease-in-out;
+}
+
+.gallery-thumb:hover {
+    border: 2px solid #0d6efd;
+}
+
+.gallery-main {
+    max-width: 500px;
+    max-height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.zoomable {
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-main:hover .zoomable {
+    transform: scale(1.2);
+}

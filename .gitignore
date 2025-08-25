@@ -1,0 +1,33 @@
+# ===== SYSTEM FILES =====
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===== BACKEND (.NET) =====
+backend/**/bin/
+backend/**/obj/
+backend/**/.vs/
+backend/**/*.user
+backend/**/*.suo
+backend/**/logs/
+backend/**/Properties/launchSettings.json
+
+# ===== FRONTEND (React + Vite) =====
+frontend/**/node_modules/
+frontend/**/dist/
+frontend/**/build/
+
+# .env
+frontend/**/.env
+frontend/**/.env.*
+!frontend/**/.env.example

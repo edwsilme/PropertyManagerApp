@@ -1,0 +1,17 @@
+h1.display-5 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.alert-info {
+    border-radius: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.properties-list {
+    transition: all 0.3s ease;
+}
