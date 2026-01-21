@@ -24,7 +24,7 @@ Incluye **backend en .NET 8 + MongoDB** y **frontend en React + Vite + TailwindC
 ---
 
 ## 📂 Estructura del proyecto
-
+```text
 /PropertyManagerApp
 	|- backend/ # API .NET (Clean Architecture)
 		|- src/
@@ -36,6 +36,7 @@ Incluye **backend en .NET 8 + MongoDB** y **frontend en React + Vite + TailwindC
 			|- src/ # Componentes React
 	|- backup/ # Backup MongoDB 
 	|- README.md
+```
 
  ---
 
@@ -54,38 +55,46 @@ Incluye **backend en .NET 8 + MongoDB** y **frontend en React + Vite + TailwindC
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/edwsilme/PropertyManagerApp.git
+   ```
 
 2. Cambiar a Rama develop:
    ```bash
    git switch develop
+   ```
 
 3. Descomprimir archivo BAckup.rar
 
 4. Restaurar el backup de MongoDB:
    ```bash
    mongorestore --db PropertyStateDb ./backup/PropertyStateDb
+   ```
 
 5. Dirijirse a la carpeta WebApi
    ```bash
    cd backend/src/Web/MillionManagerApp.Web
+   ```
 
 6. Ejecutar la API:
    ```bash
    dotnet run --launch-profile https
+   ```
 
 ## Frontend (React + Vite + Tailwind)
 
 1. Dirijirse a la carpeta ManagerApi:
    ```bash
    cd frontend/million-manager-app
+   ```
 
 2. Instalar dependencias:
    ```bash
    npm install
+   ```
 
 3. Ejecutar desarrollo:
    ```bash
    npm run dev
+   ```
 
 ---
 Enlaces:
